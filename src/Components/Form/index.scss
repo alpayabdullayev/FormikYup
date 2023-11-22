@@ -1,0 +1,71 @@
+
+body{
+    background-color: rgb(0, 143, 246);
+}
+
+.formikYupContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height:100vh ;
+    .formik{
+        display: flex;
+        flex-direction: column;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        background-color: white;
+        min-height: 75vh;
+        min-width: 30%;
+        border-radius: 8px;
+        gap: 30px;
+        .title{
+            padding-top: 30px;
+        }
+
+        form{
+            max-width: 70%;
+            .fieldContainer{
+                margin-top: 30px;
+                .field{
+                    width: 100%;
+                    height: 40px;
+                    margin-top: 10px;
+                    border-radius: 3px;
+                    border: 1px solid #888;
+                    padding: 10px;
+                    &::placeholder{
+                        color: #888;
+                        padding: 10px;
+                        font-size: 14px;
+                    }
+                }
+                .errorMesage{
+                    color: red;
+                    font-size: 14px;
+                }
+                .labelField{
+                    font-size: 20px;
+                    font-weight: 700;
+                }
+
+            }
+            // .BtnSubmit{
+            //     width: 100%;
+            //     background-color: rgb(0, 143, 246);
+            //     padding: 10px;
+            //     border: none;
+            //     margin: 30px 0;
+            //     color: white;
+            //     font-size: 20px;
+            //     border-radius: 8px
+
+            // }
+
+    
+        }
+    }
+}
